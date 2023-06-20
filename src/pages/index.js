@@ -122,7 +122,7 @@ const links = [
     color: "#663399",
   },
 ]
-
+x
 const IndexPage = () => {
   return (
     <main style={pageStyles}>
