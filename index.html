@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>San Juan Pilots Association</title>
+<meta name="description" content="For over 25 years the San Juan Pilots Association (SJPA) has been the aviation hub of the San Juan Islands: events, seminars, scholarships and a community of local pilots.">
+<meta property="og:title" content="San Juan Pilots Association">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://sanjuanpilots.org/img/plane.png">
+<link rel="icon" href="img/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --brown:#59493b; --navy:#304254; --gold:#f6cb71; --rose:#cb8c7c;
+    --red:#e8333c; --green:#5e8c72; --yellow:#e9b949; --blue:#4a7de0; --orange:#f5a623;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:#fff;color:var(--brown);font-family:Montserrat,system-ui,sans-serif;font-size:16px;line-height:1.4;letter-spacing:.17em}
+  a{color:inherit}
+  nav{position:sticky;top:0;z-index:10;background:#fff;border-bottom:1px solid #eee;display:flex;justify-content:flex-end;flex-wrap:wrap;gap:4px 32px;padding:14px 16px;letter-spacing:0}
+  nav a{color:var(--navy);font-weight:700;font-size:15px;text-decoration:none}
+  nav a:hover{text-decoration:underline}
+  section{max-width:1220px;margin:0 auto;padding:96px 16px;scroll-margin-top:56px}
+  h1,h2{font-family:"Cormorant Garamond",Georgia,serif;font-weight:300;text-transform:uppercase;letter-spacing:-.025em;line-height:1.05;margin:0 0 32px;font-size:clamp(40px,6vw,60px)}
+  h1{color:var(--brown)} h2{color:#000}
+  h3{font-size:24px;font-weight:700;text-transform:uppercase;letter-spacing:.17em;line-height:1.35;margin:0 0 6px}
+  h4{font-weight:700;margin:24px 0 4px;letter-spacing:.17em}
+  p{margin:0 0 16px}
+  .caps{text-transform:uppercase;font-weight:500}
+  .caps a{color:var(--gold);text-decoration:underline;text-underline-offset:3px}
+  .two{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}
+  .rows{display:grid;grid-template-columns:1fr auto;gap:40px 48px;align-items:center;max-width:920px}
+  .rows p:last-child{margin:0}
+  .hero img{width:100%;max-width:660px;display:block;margin:0 auto}
+  .arrow{display:inline-block;margin-top:64px;color:var(--rose)}
+  .btn{display:inline-flex;align-items:center;gap:10px;min-width:180px;justify-content:center;padding:12px 26px;border-radius:999px;color:#fff;font-weight:700;font-size:15px;letter-spacing:.08em;text-transform:uppercase;text-decoration:none;box-shadow:0 4px 0 rgba(0,0,0,.18);white-space:nowrap}
+  .btn:hover{transform:translateY(1px);box-shadow:0 3px 0 rgba(0,0,0,.18)}
+  .btn svg{width:18px;height:18px;fill:currentColor}
+  .red{background:var(--red)} .green{background:var(--green)} .yellow{background:var(--yellow)} .blue{background:var(--blue)} .orange{background:var(--orange)}
+  ul{padding-left:22px;margin:0 0 16px}
+  li{margin:4px 0}
+  .scholar img{width:100%;max-width:384px;display:block}
+  .scholar .two{align-items:start}
+  footer{text-align:center;font-size:12px;letter-spacing:.05em;padding:40px 16px;color:#8a7f73}
+  @media (max-width:760px){
+    .two,.rows{grid-template-columns:1fr;gap:28px}
+    .rows .btn{justify-self:start}
+    .hero .two{grid-template-columns:1fr}
+    section{padding:64px 16px}
+    .arrow{display:none}
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#connect">Connect</a>
+  <a href="#donate">Donate</a>
+  <a href="#events">Events</a>
+  <a href="#conversation">Join The Conversation</a>
+  <a href="#scholarships">Aviation Scholarships</a>
+</nav>
+
+<section id="home" class="hero">
+  <div class="two">
+    <div>
+      <h1>San Juan Pilots Association</h1>
+      <p class="caps">For over 25 years, the San Juan Pilots' Association (SJPA) has been an essential aviation hub, providing activities, seminars, and educational opportunities in the beautiful San Juan Islands. We invite you to join our diverse community and stay informed by signing up for our <a href="https://groups.google.com/g/sji-pilots-news">announcement list</a>. Start connecting with fellow local aviation enthusiasts today.</p>
+      <a class="arrow" href="#connect" aria-label="Scroll down">
+        <svg width="45" height="56" viewBox="0 0 170.5 215.3"><polygon fill="currentColor" points="170.5,130 85.3,215.3 0,130 5.7,124.4 81.3,200 81.3,0 89.3,0 89.3,200 164.9,124.4"/></svg>
+      </a>
+    </div>
+    <img src="img/plane.png" alt="Illustration of a float plane flying over the San Juan Islands at sunset">
+  </div>
+</section>
+
+<section id="connect">
+  <h2>Connect</h2>
+  <div class="rows">
+    <div>
+      <h3>Donate</h3>
+      <p>Please donate today to support our mission.</p>
+    </div>
+    <a class="btn red" href="#donate">Donate <svg viewBox="0 0 24 24"><path d="M12 21s-7.5-4.6-9.5-9.1C.9 8.2 3.2 4 7 4c2 0 3.4 1.1 5 3 1.6-1.9 3-3 5-3 3.8 0 6.1 4.2 4.5 7.9C19.5 16.4 12 21 12 21z"/></svg></a>
+
+    <div>
+      <h3>Email Announcements &amp; News</h3>
+      <p>Join our email list to stay current on events and important news.</p>
+    </div>
+    <a class="btn yellow" href="https://groups.google.com/g/sji-pilots-news">Join Now <svg viewBox="0 0 24 24"><path d="M5 3l14 9-6 1.5L10 21z"/></svg></a>
+
+    <div>
+      <h3>Aviation Scholarships</h3>
+      <p>Apply to our aviation scholarship program.</p>
+    </div>
+    <a class="btn green" href="#scholarships">Learn More <svg viewBox="0 0 24 24"><path d="M4 11h11.2l-4.6-4.6L12 5l7 7-7 7-1.4-1.4 4.6-4.6H4z"/></svg></a>
+  </div>
+</section>
+
+<section id="donate">
+  <h2>Donate Today</h2>
+  <p>There are two ways you can help:</p>
+  <div class="rows" style="margin-top:32px">
+    <div>
+      <h3>Support the San Juan Pilots Association</h3>
+      <p>Please support our mission to promote community and aviation safety in the San Juan Islands.</p>
+    </div>
+    <a class="btn blue" href="https://www.paypal.com/donate/?hosted_button_id=XNTCRD7NCB8TC">Donate <svg viewBox="0 0 24 24"><path d="M12 21s-7.5-4.6-9.5-9.1C.9 8.2 3.2 4 7 4c2 0 3.4 1.1 5 3 1.6-1.9 3-3 5-3 3.8 0 6.1 4.2 4.5 7.9C19.5 16.4 12 21 12 21z"/></svg></a>
+
+    <div>
+      <h3>John Volk Memorial Scholarship Fund</h3>
+      <p>Established by the SJI Pilots Association in 2007, the John Volk Memorial Scholarship Fund has a long-standing history of honoring John's memory and supporting students pursuing aviation careers. Your contribution to this credible fund will make a difference.</p>
+    </div>
+    <a class="btn red" href="https://sjicf.fcsuite.com/erp/donate/create/fund?funit_id=1101">Donate <svg viewBox="0 0 24 24"><path d="M12 21s-7.5-4.6-9.5-9.1C.9 8.2 3.2 4 7 4c2 0 3.4 1.1 5 3 1.6-1.9 3-3 5-3 3.8 0 6.1 4.2 4.5 7.9C19.5 16.4 12 21 12 21z"/></svg></a>
+  </div>
+</section>
+
+<section id="events">
+  <h2>Events</h2>
+  <div class="rows">
+    <div>
+      <h3>Monthly Pilots' Lunch</h3>
+      <p class="caps" style="font-weight:400">Last Wednesday of the month<br>San Juan Golf Club, Friday Harbor WA</p>
+    </div>
+    <span></span>
+    <div>
+      <h3>Summer BBQ</h3>
+      <p>Join us each September for our Annual Summer BBQ. Dates are posted to the announcement list.</p>
+    </div>
+    <a class="btn green" href="https://groups.google.com/g/sji-pilots-news">Learn More <svg viewBox="0 0 24 24"><path d="M4 11h11.2l-4.6-4.6L12 5l7 7-7 7-1.4-1.4 4.6-4.6H4z"/></svg></a>
+  </div>
+</section>
+
+<section id="conversation">
+  <h2>Join the<br>Conversation</h2>
+  <div class="two" style="align-items:start">
+    <div>
+      <h4 style="margin-top:0">For Experienced Pilots</h4>
+      <p>Are you a long-time resident pilot in the San Juan Islands? Share your local wisdom and insights, and help guide the next generation of aviators.</p>
+      <h4>For New Pilots</h4>
+      <p>Need access to local knowledge? Want to ask questions about flying in our unique region? Connect with experienced pilots and learn from the best.</p>
+      <h4>Community Connection</h4>
+      <p>Discuss all things aviation, engage with local experts, and contribute to a supportive community.</p>
+      <p>Your voice matters. Whether you're an old-timer with tales to tell or a newcomer eager to learn, join our announcement list today and elevate your aviation journey.</p>
+    </div>
+    <div>
+      <p style="font-weight:700">Your voice matters! Whether you're an old-timer with tales to tell or a newcomer eager to learn, join our community today and elevate your aviation journey.</p>
+      <a class="btn green" href="https://groups.google.com/g/sji-pilots-news">Join Now <svg viewBox="0 0 24 24"><path d="M5 3l14 9-6 1.5L10 21z"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<section id="scholarships" class="scholar">
+  <h2>Aviation Scholarships</h2>
+  <div class="two">
+    <img src="img/scholarships.png" alt="Collage of aircraft, books, instruments and engineering tools">
+    <div>
+      <h4 style="margin-top:0;text-transform:uppercase">Scholarship Opportunities in Aviation &amp; Engineering</h4>
+      <p>At the San Juan Pilots Association, we're not just about flying; we're about fostering a community where dreams of aviation and engineering take flight.</p>
+      <h4>What's On Offer?</h4>
+      <ul>
+        <li>Pilot Training Scholarships: Take to the skies with our commercial pilot license training scholarships. It's your first step in a thrilling career in aviation.</li>
+        <li>Aircraft &amp; Drone Maintenance: Get hands-on with our scholarships in aircraft and drone maintenance. Become the backbone of aviation safety and innovation.</li>
+        <li>Engineering Dreams: Dream of designing the next generation of aircraft or drones? Our scholarships in aeronautics and aviation engineering can make that a reality.</li>
+      </ul>
+      <h4>Not sure?</h4>
+      <ul>
+        <li>Ask about an introductory flight around the San Juan Islands!</li>
+        <li>Inquire about flying yourself using our full flight simulator!</li>
+        <li>For more information, email <a href="mailto:bob.tauscher@gmail.com">bob.tauscher@gmail.com</a>.</li>
+      </ul>
+      <a class="btn orange" href="https://sjicf.org/students/john-volk-memorial-scholarship/">Apply Now <svg viewBox="0 0 24 24"><path d="M4 11h11.2l-4.6-4.6L12 5l7 7-7 7-1.4-1.4 4.6-4.6H4z"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<footer>San Juan Pilots Association, Friday Harbor WA</footer>
+
+</body>
+</html>
